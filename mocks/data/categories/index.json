@@ -1,0 +1,1852 @@
+{
+  "categories": [
+    {
+      "kind": "Employment",
+      "title": "雇用形態で探す",
+      "sub_categories": [
+        {
+          "title": "中途採用（正社員）",
+          "url_param": {
+            "employment-type": "中途採用（正社員）"
+          },
+          "is_nofollow": false,
+          "search1_url": "koyokeitai/chuto-seishain/"
+        },
+        {
+          "title": "新卒採用（正社員）",
+          "url_param": {
+            "employment-type": "新卒採用（正社員）"
+          },
+          "is_nofollow": false,
+          "search1_url": "koyokeitai/shinsotsu-seishain/"
+        },
+        {
+          "title": "中途採用（契約）",
+          "url_param": {
+            "employment-type": "中途採用（契約）"
+          },
+          "is_nofollow": false,
+          "search1_url": "koyokeitai/chuto-keiyaku/"
+        },
+        {
+          "title": "新卒採用（契約）",
+          "url_param": {
+            "employment-type": "新卒採用（契約）"
+          },
+          "is_nofollow": false,
+          "search1_url": "koyokeitai/shinsotsu-keiyaku/"
+        },
+        {
+          "title": "アルバイト・パート",
+          "url_param": {
+            "employment-type": "アルバイト・パート"
+          },
+          "is_nofollow": false,
+          "search1_url": "koyokeitai/part-time/"
+        },
+        {
+          "title": "業務委託",
+          "url_param": {
+            "employment-type": "業務委託"
+          },
+          "is_nofollow": false,
+          "search1_url": "koyokeitai/gyomu-itaku/"
+        },
+        {
+          "title": "インターン",
+          "url_param": {
+            "employment-type": "インターン"
+          },
+          "is_nofollow": false,
+          "search1_url": "koyokeitai/internship/"
+        }
+      ]
+    },
+    {
+      "kind": "Occupation",
+      "title": "職種で探す",
+      "sub_categories": [
+        {
+          "title": "営業系",
+          "url_param": {
+            "occupation": "営業系"
+          },
+          "note": "営業、MR、人材コーディネーター 他",
+          "is_nofollow": false,
+          "search1_url": "job/sales/"
+        },
+        {
+          "title": "企画・事務・管理系",
+          "url_param": {
+            "occupation": "企画・事務・管理系"
+          },
+          "note": "経営企画、広報、人事、事務 他",
+          "is_nofollow": false,
+          "search1_url": "job/officework/"
+        },
+        {
+          "title": "販売・接客・サービス系",
+          "url_param": {
+            "occupation": "販売・接客・サービス系"
+          },
+          "note": "ファッション、フード、小売 他",
+          "is_nofollow": false,
+          "search1_url": "job/retailing/"
+        },
+        {
+          "title": "専門サービス系（医療、福祉、教育、その他",
+          "url_param": {
+            "occupation": "専門サービス系（医療、福祉、教育、その他"
+          },
+          "note": "医療、福祉、教育、ブライダル 他",
+          "is_nofollow": false,
+          "search1_url": "job/pro-service/"
+        },
+        {
+          "title": "専門職系（コンサルタント、金融、不動産）",
+          "url_param": {
+            "occupation": "専門職系（コンサルタント、金融、不動産）"
+          },
+          "note": "コンサルタント、金融・不動産 他",
+          "is_nofollow": false,
+          "search1_url": "job/professional/"
+        },
+        {
+          "title": "クリエイティブ系",
+          "url_param": {
+            "occupation": "クリエイティブ系"
+          },
+          "note": "WEB・ゲーム制作、プランナー 他",
+          "is_nofollow": false,
+          "search1_url": "job/creative/"
+        },
+        {
+          "title": "技術系（IT・Web・ゲーム・通信）",
+          "url_param": {
+            "occupation": "技術系（IT・Web・ゲーム・通信）"
+          },
+          "note": "アプリ開発、ITコンサル、PM 他",
+          "is_nofollow": false,
+          "search1_url": "job/itengineer/"
+        },
+        {
+          "title": "技術系（電気、電子、機械）",
+          "url_param": {
+            "occupation": "技術系（電気、電子、機械）"
+          },
+          "note": "回路・制御設計、研究 他",
+          "is_nofollow": false,
+          "search1_url": "job/electronic/"
+        },
+        {
+          "title": "技術系（建築、土木）",
+          "url_param": {
+            "occupation": "技術系（建築、土木）"
+          },
+          "note": "建築・設備設計、施工管理 他",
+          "is_nofollow": false,
+          "search1_url": "job/construction/"
+        },
+        {
+          "title": "技術系（医薬、化学、素材、食品）",
+          "url_param": {
+            "occupation": "技術系（医薬、化学、素材、食品）"
+          },
+          "note": "研究、生産管理、品質管理 他",
+          "is_nofollow": false,
+          "search1_url": "job/bio/"
+        },
+        {
+          "title": "警備、清掃、設備管理、運輸・配送、軽作業系",
+          "url_param": {
+            "occupation": "警備、清掃、設備管理、運輸・配送、軽作業系"
+          },
+          "note": "警備、清掃、ドライバー 他",
+          "is_nofollow": false,
+          "search1_url": "job/technique/"
+        },
+        {
+          "title": "公務員、団体職員、その他",
+          "url_param": {
+            "occupation": "公務員、団体職員、その他"
+          },
+          "note": "公務員、警察・消防、学校法人 他",
+          "is_nofollow": false,
+          "search1_url": "job/komuin/"
+        }
+      ]
+    },
+    {
+      "kind": "Industry",
+      "title": "業種で探す",
+      "sub_categories": [
+        {
+          "title": "メーカー（機械・電気・電子）",
+          "url_param": {
+            "industry": "メーカー（機械・電気・電子）"
+          },
+          "note": "電気、機械、自動車、医療機器 他",
+          "is_nofollow": false,
+          "search1_url": "industry/denkidenshi/"
+        },
+        {
+          "title": "メーカー（食材・商品・衣料品 他）",
+          "url_param": {
+            "industry": "メーカー（食材・商品・衣料品 他）"
+          },
+          "note": "化学、鉄鋼、医薬品、日常品 他",
+          "is_nofollow": false,
+          "search1_url": "industry/sozai/"
+        },
+        {
+          "title": "サービス",
+          "url_param": {
+            "industry": "サービス"
+          },
+          "note": "飲食、教育、アミューズメント 他",
+          "is_nofollow": false,
+          "search1_url": "industry/service/"
+        },
+        {
+          "title": "コンサルティング",
+          "url_param": {
+            "industry": "コンサルティング"
+          },
+          "note": "シンクタンク、マーケティング 他",
+          "is_nofollow": false,
+          "search1_url": "industry/consul/"
+        },
+        {
+          "title": "不動産・建設・設備",
+          "url_param": {
+            "industry": "不動産・建設・設備"
+          },
+          "note": "建設、土木、不動産 他",
+          "is_nofollow": false,
+          "search1_url": "industry/building/"
+        },
+        {
+          "title": "運輸・交通・物流・倉庫",
+          "url_param": {
+            "industry": "運輸・交通・物流・倉庫"
+          },
+          "note": "鉄道、空輸、海運、物流、倉庫 他",
+          "is_nofollow": false,
+          "search1_url": "industry/logistics/"
+        },
+        {
+          "title": "商社",
+          "url_param": {
+            "industry": "商社"
+          },
+          "note": "総合商社、食料品、アパレル、インテリア 他",
+          "is_nofollow": false,
+          "search1_url": "industry/trading/"
+        },
+        {
+          "title": "金融・保険",
+          "url_param": {
+            "industry": "金融・保険"
+          },
+          "note": "銀行、証券、生保、クレジット 他",
+          "is_nofollow": false,
+          "search1_url": "industry/finance/"
+        },
+        {
+          "title": "マスコミ・広告・デザイン",
+          "url_param": {
+            "industry": "マスコミ・広告・デザイン"
+          },
+          "note": "放送、出版、広告、ゲーム、デザイン 他",
+          "is_nofollow": false,
+          "search1_url": "industry/ad/"
+        },
+        {
+          "title": "流通・小売",
+          "url_param": {
+            "industry": "流通・小売"
+          },
+          "note": "百貨店、コンビニ、ドラックストア 他",
+          "is_nofollow": false,
+          "search1_url": "industry/ryutsu/"
+        },
+        {
+          "title": "IT・通信・インターネット",
+          "url_param": {
+            "industry": "IT・通信・インターネット"
+          },
+          "note": "ソフトウェア、インターネット 他",
+          "is_nofollow": false,
+          "search1_url": "industry/it/"
+        },
+        {
+          "title": "その他",
+          "url_param": {
+            "industry": "その他"
+          },
+          "note": "電気、ガス、インフラ、官公庁 他",
+          "is_nofollow": false,
+          "search1_url": "industry/other/"
+        }
+      ]
+    },
+    {
+      "kind": "Area",
+      "title": "エリアで探す",
+      "sub_categories": [
+        {
+          "title": "北海道・東北",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "北海道",
+              "url_param": {
+                "area": "北海道"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/hokkaido/"
+            },
+            {
+              "title": "青森県",
+              "url_param": {
+                "area": "青森県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/aomori/"
+            },
+            {
+              "title": "岩手県",
+              "url_param": {
+                "area": "岩手県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/iwate/"
+            },
+            {
+              "title": "宮城県",
+              "url_param": {
+                "area": "宮城県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/miyagi/"
+            },
+            {
+              "title": "秋田県",
+              "url_param": {
+                "area": "秋田県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/akita/"
+            },
+            {
+              "title": "山形県",
+              "url_param": {
+                "area": "山形県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/yamagata/"
+            },
+            {
+              "title": "福島県",
+              "url_param": {
+                "area": "福島県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/fukushima/"
+            }
+          ]
+        },
+        {
+          "title": "関東",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "東京都",
+              "url_param": {
+                "area": "東京都"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/tokyo/"
+            },
+            {
+              "title": "神奈川県",
+              "url_param": {
+                "area": "神奈川県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/kanagawa/"
+            },
+            {
+              "title": "千葉県",
+              "url_param": {
+                "area": "千葉県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/chiba/"
+            },
+            {
+              "title": "茨城県",
+              "url_param": {
+                "area": "茨城県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/ibaraki/"
+            },
+            {
+              "title": "栃木県",
+              "url_param": {
+                "area": "栃木県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/tochigi/"
+            },
+            {
+              "title": "群馬県",
+              "url_param": {
+                "area": "群馬県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/gunma/"
+            },
+            {
+              "title": "埼玉県",
+              "url_param": {
+                "area": "埼玉県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/saitama/"
+            }
+          ]
+        },
+        {
+          "title": "北陸・甲信越",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "富山県",
+              "url_param": {
+                "area": "富山県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/toyama/"
+            },
+            {
+              "title": "石川県",
+              "url_param": {
+                "area": "石川県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/ishikawa/"
+            },
+            {
+              "title": "福井県",
+              "url_param": {
+                "area": "福井県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/fukui/"
+            },
+            {
+              "title": "新潟県",
+              "url_param": {
+                "area": "新潟県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/nigata/"
+            },
+            {
+              "title": "山梨県",
+              "url_param": {
+                "area": "山梨県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/yamanashi/"
+            },
+            {
+              "title": "長野県",
+              "url_param": {
+                "area": "長野県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/nagano/"
+            }
+          ]
+        },
+        {
+          "title": "東海",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "岐阜県",
+              "url_param": {
+                "area": "岐阜県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/gifu/"
+            },
+            {
+              "title": "静岡県",
+              "url_param": {
+                "area": "静岡県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/shizuoka/"
+            },
+            {
+              "title": "愛知県",
+              "url_param": {
+                "area": "愛知県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/aichi/"
+            },
+            {
+              "title": "三重県",
+              "url_param": {
+                "area": "三重県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/mie/"
+            }
+          ]
+        },
+        {
+          "title": "関西",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "滋賀県",
+              "url_param": {
+                "area": "滋賀県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/shiga/"
+            },
+            {
+              "title": "京都府",
+              "url_param": {
+                "area": "京都府"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/kyoto/"
+            },
+            {
+              "title": "大阪府",
+              "url_param": {
+                "area": "大阪府"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/osaka/"
+            },
+            {
+              "title": "兵庫県",
+              "url_param": {
+                "area": "兵庫県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/hyogo/"
+            },
+            {
+              "title": "奈良県",
+              "url_param": {
+                "area": "奈良県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/nara/"
+            },
+            {
+              "title": "和歌山県",
+              "url_param": {
+                "area": "和歌山県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/wakayama/"
+            }
+          ]
+        },
+        {
+          "title": "中国",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "鳥取県",
+              "url_param": {
+                "area": "鳥取県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/tottori/"
+            },
+            {
+              "title": "島根県",
+              "url_param": {
+                "area": "島根県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/shimane/"
+            },
+            {
+              "title": "岡山県",
+              "url_param": {
+                "area": "岡山県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/okayama/"
+            },
+            {
+              "title": "広島県",
+              "url_param": {
+                "area": "広島県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/hiroshima/"
+            },
+            {
+              "title": "山口県",
+              "url_param": {
+                "area": "山口県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/yamaguchi/"
+            }
+          ]
+        },
+        {
+          "title": "四国",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "徳島県",
+              "url_param": {
+                "area": "徳島県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/tokushima/"
+            },
+            {
+              "title": "香川県",
+              "url_param": {
+                "area": "香川県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/kagawa/"
+            },
+            {
+              "title": "愛媛県",
+              "url_param": {
+                "area": "愛媛県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/ehime/"
+            },
+            {
+              "title": "高知県",
+              "url_param": {
+                "area": "高知県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/kochi/"
+            }
+          ]
+        },
+        {
+          "title": "九州・沖縄",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "福岡県",
+              "url_param": {
+                "area": "福岡県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/fukuoka/"
+            },
+            {
+              "title": "佐賀県",
+              "url_param": {
+                "area": "佐賀県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/saga/"
+            },
+            {
+              "title": "長崎県",
+              "url_param": {
+                "area": "長崎県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/nagasaki/"
+            },
+            {
+              "title": "熊本県",
+              "url_param": {
+                "area": "熊本県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/kumamoto/"
+            },
+            {
+              "title": "大分県",
+              "url_param": {
+                "area": "大分県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/oita/"
+            },
+            {
+              "title": "宮崎県",
+              "url_param": {
+                "area": "宮崎県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/miyazaki/"
+            },
+            {
+              "title": "鹿児島県",
+              "url_param": {
+                "area": "鹿児島県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/kagoshima/"
+            },
+            {
+              "title": "沖縄県",
+              "url_param": {
+                "area": "沖縄県"
+              },
+              "is_nofollow": false,
+              "search1_url": "area/okinawa/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "Feature",
+      "title": "特徴で探す",
+      "sub_categories": [
+        {
+          "title": "会社の特徴",
+          "url_param": {},
+          "note": "上場企業、官公庁・学校関連 他",
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "上場企業",
+              "url_param": {
+                "feature": "上場企業"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/jojo-kigyo/"
+            },
+            {
+              "title": "官公庁・学校関連",
+              "url_param": {
+                "feature": "官公庁・学校関連"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/kankocho-gakko/"
+            },
+            {
+              "title": "ベンチャー企業",
+              "url_param": {
+                "feature": "ベンチャー企業"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/venture-kigyo/"
+            },
+            {
+              "title": "外資系企業",
+              "url_param": {
+                "feature": "外資系企業"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/gaishikei-kigyo/"
+            },
+            {
+              "title": "株式公開準備中",
+              "url_param": {
+                "feature": "株式公開準備中"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/kabushiki-kokai-jumbi/"
+            },
+            {
+              "title": "設立30年以上",
+              "url_param": {
+                "feature": "設立30年以上"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/setsuritsu30nen/"
+            },
+            {
+              "title": "女性管理職登用実績あり",
+              "url_param": {
+                "feature": "女性管理職登用実績あり"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/josei-kanrishoku-toyo/"
+            },
+            {
+              "title": "駅から徒歩5分以内",
+              "url_param": {
+                "feature": "駅から徒歩5分以内"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/eki-toho5fun/"
+            },
+            {
+              "title": "転勤なし",
+              "url_param": {
+                "feature": "転勤なし"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/tenkin-nashi/"
+            }
+          ]
+        },
+        {
+          "title": "雇用・勤務時間の特徴",
+          "url_param": {},
+          "note": "試用期間あり、正社員登用あり 他",
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "試用期間あり",
+              "url_param": {
+                "feature": "試用期間あり"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/shiyo-kikan/"
+            },
+            {
+              "title": "正社員登用あり",
+              "url_param": {
+                "feature": "正社員登用あり"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/seishain-toyo/"
+            },
+            {
+              "title": "残業なし",
+              "url_param": {
+                "feature": "残業なし"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/zangyo-nashi/"
+            },
+            {
+              "title": "完全土日祝休み",
+              "url_param": {
+                "feature": "完全土日祝休み"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/donichishuku-yasumi/"
+            },
+            {
+              "title": "1日4h以内OK",
+              "url_param": {
+                "feature": "1日4h以内OK"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/1nichi4jikan-ok/"
+            },
+            {
+              "title": "週1日からOK",
+              "url_param": {
+                "feature": "週1日からOK"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/shu1nichi-ok/"
+            },
+            {
+              "title": "週2～3日からOK",
+              "url_param": {
+                "feature": "週2～3日からOK"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/shu2-3nichi-ok/"
+            },
+            {
+              "title": "単発・1日のみOK",
+              "url_param": {
+                "feature": "単発・1日のみOK"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/tampatsu-ok/"
+            },
+            {
+              "title": "短期(1ヶ月以内)",
+              "url_param": {
+                "feature": "短期(1ヶ月以内)"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/tanki-ok/"
+            },
+            {
+              "title": "土日祝のみOK",
+              "url_param": {
+                "feature": "土日祝のみOK"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/donichishuku-ok/"
+            },
+            {
+              "title": "10時以降に始業",
+              "url_param": {
+                "feature": "10時以降に始業"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/10ji-shigyo/"
+            },
+            {
+              "title": "夜勤・深夜・早朝（22時～7時）",
+              "url_param": {
+                "feature": "夜勤・深夜・早朝（22時～7時）"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/yakin-shinya-socho/"
+            },
+            {
+              "title": "16時前までの仕事",
+              "url_param": {
+                "feature": "16時前までの仕事"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/16jimade/"
+            },
+            {
+              "title": "17時以降に始業",
+              "url_param": {
+                "feature": "17時以降に始業"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/17jiiko/"
+            },
+            {
+              "title": "春・夏・冬休み期間限定",
+              "url_param": {
+                "feature": "春・夏・冬休み期間限定"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/haru-natsu-fuyuyasumi-gentei/"
+            },
+            {
+              "title": "シフト制",
+              "url_param": {
+                "feature": "シフト制"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/shifuto-sei/"
+            }
+          ]
+        },
+        {
+          "title": "仕事の特徴",
+          "url_param": {},
+          "note": "英語・外国語を使う仕事 他",
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "英語・外国語を使う仕事",
+              "url_param": {
+                "feature": "英語・外国語を使う仕事"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/eigo-gaikokugo/"
+            },
+            {
+              "title": "マネージャー・管理職採用",
+              "url_param": {
+                "feature": "マネージャー・管理職採用"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/kanrishoku-saiyo/"
+            },
+            {
+              "title": "新規事業",
+              "url_param": {
+                "feature": "新規事業"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/shinki-jigyo/"
+            },
+            {
+              "title": "高校生歓迎",
+              "url_param": {
+                "feature": "高校生歓迎"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/kokosei-kangei/"
+            },
+            {
+              "title": "既卒・第二新卒歓迎",
+              "url_param": {
+                "feature": "既卒・第二新卒歓迎"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/kisotsu-ok/"
+            },
+            {
+              "title": "シニア歓迎",
+              "url_param": {
+                "feature": "シニア歓迎"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/shinia-kangei/"
+            },
+            {
+              "title": "障がい者積極採用",
+              "url_param": {
+                "feature": "障がい者積極採用"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/shogaisha-boshu/"
+            },
+            {
+              "title": "副業・WワークOK",
+              "url_param": {
+                "feature": "副業・WワークOK"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/fukugyo-wwaku/"
+            },
+            {
+              "title": "英語力不問",
+              "url_param": {
+                "feature": "英語力不問"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/eigoryoku-fumon/"
+            },
+            {
+              "title": "未経験OK",
+              "url_param": {
+                "feature": "未経験OK"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/mikeiken-ok/"
+            },
+            {
+              "title": "学歴不問",
+              "url_param": {
+                "feature": "学歴不問"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/gakureki-fumon/"
+            }
+          ]
+        },
+        {
+          "title": "募集の特徴",
+          "url_param": {},
+          "note": "10名以上の大量募集 他",
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "10名以上の大量募集",
+              "url_param": {
+                "feature": "10名以上の大量募集"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/tairyo-boshu/"
+            },
+            {
+              "title": "急募！内定まで2週間",
+              "url_param": {
+                "feature": "急募！内定まで2週間"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/kyubo-naitei2shukan/"
+            },
+            {
+              "title": "欠員補充",
+              "url_param": {
+                "feature": "欠員補充"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/ketsuin-hoju/"
+            },
+            {
+              "title": "増員",
+              "url_param": {
+                "feature": "増員"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/zoin/"
+            }
+          ]
+        },
+        {
+          "title": "福利厚生の特徴",
+          "url_param": {},
+          "note": "年間休日120日以上、夏季休暇 他",
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "年間休日120日以上",
+              "url_param": {
+                "feature": "年間休日120日以上"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/kyujitsu120nichiijo/"
+            },
+            {
+              "title": "夏季休暇",
+              "url_param": {
+                "feature": "夏季休暇"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/kaki-kyuka/"
+            },
+            {
+              "title": "年末年始休暇",
+              "url_param": {
+                "feature": "年末年始休暇"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/nemmatsunenshi-kyuka/"
+            },
+            {
+              "title": "雇用保険",
+              "url_param": {
+                "feature": "雇用保険"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/koyo-hoken/"
+            },
+            {
+              "title": "労災保険",
+              "url_param": {
+                "feature": "労災保険"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/rosai-hoken/"
+            },
+            {
+              "title": "厚生年金",
+              "url_param": {
+                "feature": "厚生年金"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/kosei-nenkin/"
+            },
+            {
+              "title": "健康保険",
+              "url_param": {
+                "feature": "健康保険"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/kenko-hoken/"
+            },
+            {
+              "title": "交通費支給あり",
+              "url_param": {
+                "feature": "交通費支給あり"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/kotsuhi-shikyu/"
+            },
+            {
+              "title": "資格取得支援・手当あり",
+              "url_param": {
+                "feature": "資格取得支援・手当あり"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/shikakuteate/"
+            },
+            {
+              "title": "寮・社宅・住宅手当あり",
+              "url_param": {
+                "feature": "寮・社宅・住宅手当あり"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/ryo-shataku-jutakuteate/"
+            },
+            {
+              "title": "育児支援・託児所あり",
+              "url_param": {
+                "feature": "育児支援・託児所あり"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/ikujishien-takujijo/"
+            },
+            {
+              "title": "U・Iターン支援あり",
+              "url_param": {
+                "feature": "U・Iターン支援あり"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/uitan-shien/"
+            },
+            {
+              "title": "時短勤務制度あり",
+              "url_param": {
+                "feature": "時短勤務制度あり"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/jitankimmu/"
+            },
+            {
+              "title": "日払い・週払い・即日払いOK",
+              "url_param": {
+                "feature": "日払い・週払い・即日払いOK"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/hi-shu-sokujitsubarai/"
+            },
+            {
+              "title": "テレワーク・在宅OK",
+              "url_param": {
+                "feature": "テレワーク・在宅OK"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/zaitaku-naishoku/"
+            },
+            {
+              "title": "服装自由",
+              "url_param": {
+                "feature": "服装自由"
+              },
+              "is_nofollow": false,
+              "search1_url": "feature/fukuso-jiyu/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "Salary",
+      "title": "給与で探す",
+      "sub_categories": [
+        {
+          "title": "年収",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "200万円〜",
+              "url_param": {
+                "feature": "200万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu200/"
+            },
+            {
+              "title": "250万円〜",
+              "url_param": {
+                "feature": "250万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu250/"
+            },
+            {
+              "title": "300万円〜",
+              "url_param": {
+                "feature": "300万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu300/"
+            },
+            {
+              "title": "350万円〜",
+              "url_param": {
+                "feature": "350万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu350/"
+            },
+            {
+              "title": "400万円〜",
+              "url_param": {
+                "feature": "400万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu400/"
+            },
+            {
+              "title": "450万円〜",
+              "url_param": {
+                "feature": "450万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu450/"
+            },
+            {
+              "title": "500万円〜",
+              "url_param": {
+                "feature": "500万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu500/"
+            },
+            {
+              "title": "550万円〜",
+              "url_param": {
+                "feature": "550万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu550/"
+            },
+            {
+              "title": "600万円〜",
+              "url_param": {
+                "feature": "600万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu600/"
+            },
+            {
+              "title": "650万円〜",
+              "url_param": {
+                "feature": "650万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu650/"
+            },
+            {
+              "title": "700万円〜",
+              "url_param": {
+                "feature": "700万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu700/"
+            },
+            {
+              "title": "750万円〜",
+              "url_param": {
+                "feature": "750万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu750/"
+            },
+            {
+              "title": "800万円〜",
+              "url_param": {
+                "feature": "800万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu800/"
+            },
+            {
+              "title": "850万円〜",
+              "url_param": {
+                "feature": "850万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu850/"
+            },
+            {
+              "title": "900万円〜",
+              "url_param": {
+                "feature": "900万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu900/"
+            },
+            {
+              "title": "950万円〜",
+              "url_param": {
+                "feature": "950万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu950/"
+            },
+            {
+              "title": "1,000万円〜",
+              "url_param": {
+                "feature": "1000万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nenshu1000/"
+            }
+          ]
+        },
+        {
+          "title": "月給",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "15万円〜",
+              "url_param": {
+                "feature": "15万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/gekkyu15/"
+            },
+            {
+              "title": "20万円〜",
+              "url_param": {
+                "feature": "20万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/gekkyu20/"
+            },
+            {
+              "title": "25万円〜",
+              "url_param": {
+                "feature": "25万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/gekkyu25/"
+            },
+            {
+              "title": "30万円〜",
+              "url_param": {
+                "feature": "30万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/gekkyu30/"
+            },
+            {
+              "title": "35万円〜",
+              "url_param": {
+                "feature": "35万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/gekkyu35/"
+            },
+            {
+              "title": "40万円〜",
+              "url_param": {
+                "feature": "40万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/gekkyu40/"
+            },
+            {
+              "title": "45万円〜",
+              "url_param": {
+                "feature": "45万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/gekkyu45/"
+            },
+            {
+              "title": "50万円〜",
+              "url_param": {
+                "feature": "50万円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/gekkyu50/"
+            }
+          ]
+        },
+        {
+          "title": "日給",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "6,000円〜",
+              "url_param": {
+                "feature": "6,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu6000/"
+            },
+            {
+              "title": "7,000円〜",
+              "url_param": {
+                "feature": "7,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu7000/"
+            },
+            {
+              "title": "8,000円〜",
+              "url_param": {
+                "feature": "8,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu8000/"
+            },
+            {
+              "title": "9,000円〜",
+              "url_param": {
+                "feature": "9,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu9000/"
+            },
+            {
+              "title": "10,000円〜",
+              "url_param": {
+                "feature": "10,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu10000/"
+            },
+            {
+              "title": "11,000円〜",
+              "url_param": {
+                "feature": "11,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu11000/"
+            },
+            {
+              "title": "12,000円〜",
+              "url_param": {
+                "feature": "12,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu12000/"
+            },
+            {
+              "title": "13,000円〜",
+              "url_param": {
+                "feature": "13,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu13000/"
+            },
+            {
+              "title": "14,000円〜",
+              "url_param": {
+                "feature": "14,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu14000/"
+            },
+            {
+              "title": "15,000円〜",
+              "url_param": {
+                "feature": "15,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu15000/"
+            },
+            {
+              "title": "16,000円〜",
+              "url_param": {
+                "feature": "16,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu16000/"
+            },
+            {
+              "title": "17,000円〜",
+              "url_param": {
+                "feature": "17,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu17000/"
+            },
+            {
+              "title": "18,000円〜",
+              "url_param": {
+                "feature": "18,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu18000/"
+            },
+            {
+              "title": "19,000円〜",
+              "url_param": {
+                "feature": "19,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu19000/"
+            },
+            {
+              "title": "20,000円〜",
+              "url_param": {
+                "feature": "20,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu20000/"
+            },
+            {
+              "title": "21,000円〜",
+              "url_param": {
+                "feature": "21,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu21000/"
+            },
+            {
+              "title": "22,000円〜",
+              "url_param": {
+                "feature": "22,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu22000/"
+            },
+            {
+              "title": "23,000円〜",
+              "url_param": {
+                "feature": "23,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu23000/"
+            },
+            {
+              "title": "24,000円〜",
+              "url_param": {
+                "feature": "24,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu24000/"
+            },
+            {
+              "title": "25,000円〜",
+              "url_param": {
+                "feature": "25,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu25000/"
+            },
+            {
+              "title": "26,000円〜",
+              "url_param": {
+                "feature": "26,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu26000/"
+            },
+            {
+              "title": "27,000円〜",
+              "url_param": {
+                "feature": "27,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu27000/"
+            },
+            {
+              "title": "28,000円〜",
+              "url_param": {
+                "feature": "28,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu28000/"
+            },
+            {
+              "title": "29,000円〜",
+              "url_param": {
+                "feature": "29,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu29000/"
+            },
+            {
+              "title": "30,000円〜",
+              "url_param": {
+                "feature": "30,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/nikkyu30000/"
+            }
+          ]
+        },
+        {
+          "title": "時給",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "850円〜",
+              "url_param": {
+                "feature": "850円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu850/"
+            },
+            {
+              "title": "900円〜",
+              "url_param": {
+                "feature": "900円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu900/"
+            },
+            {
+              "title": "950円〜",
+              "url_param": {
+                "feature": "950円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu950/"
+            },
+            {
+              "title": "1,000円〜",
+              "url_param": {
+                "feature": "1,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1000/"
+            },
+            {
+              "title": "1,050円〜",
+              "url_param": {
+                "feature": "1,050円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1050/"
+            },
+            {
+              "title": "1,100円〜",
+              "url_param": {
+                "feature": "1,100円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1100/"
+            },
+            {
+              "title": "1,150円〜",
+              "url_param": {
+                "feature": "1,150円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1150/"
+            },
+            {
+              "title": "1,200円〜",
+              "url_param": {
+                "feature": "1,200円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1200/"
+            },
+            {
+              "title": "1,250円〜",
+              "url_param": {
+                "feature": "1,250円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1250/"
+            },
+            {
+              "title": "1,300円〜",
+              "url_param": {
+                "feature": "1,300円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1300/"
+            },
+            {
+              "title": "1,350円〜",
+              "url_param": {
+                "feature": "1,350円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1350/"
+            },
+            {
+              "title": "1,400円〜",
+              "url_param": {
+                "feature": "1,400円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1400/"
+            },
+            {
+              "title": "1,450円〜",
+              "url_param": {
+                "feature": "1,450円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1450/"
+            },
+            {
+              "title": "1,500円〜",
+              "url_param": {
+                "feature": "1,500円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1500/"
+            },
+            {
+              "title": "1,550円〜",
+              "url_param": {
+                "feature": "1,550円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1550/"
+            },
+            {
+              "title": "1,600円〜",
+              "url_param": {
+                "feature": "1,600円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1600/"
+            },
+            {
+              "title": "1,650円〜",
+              "url_param": {
+                "feature": "1,650円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1650/"
+            },
+            {
+              "title": "1,700円〜",
+              "url_param": {
+                "feature": "1,700円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1700/"
+            },
+            {
+              "title": "1,750円〜",
+              "url_param": {
+                "feature": "1,750円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1750/"
+            },
+            {
+              "title": "1,800円〜",
+              "url_param": {
+                "feature": "1,800円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1800/"
+            },
+            {
+              "title": "1,850円〜",
+              "url_param": {
+                "feature": "1,850円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1850/"
+            },
+            {
+              "title": "1,900円〜",
+              "url_param": {
+                "feature": "1,900円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1900/"
+            },
+            {
+              "title": "1,950円〜",
+              "url_param": {
+                "feature": "1,950円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu1950/"
+            },
+            {
+              "title": "2,000円〜",
+              "url_param": {
+                "feature": "2,000円〜"
+              },
+              "is_nofollow": false,
+              "search1_url": "salary/jikyu2000/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

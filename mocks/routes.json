@@ -1,0 +1,6 @@
+{
+  "/base-keywords": "/base-keywords-page-1?pageInfo.current_page=1",
+  "/base-keywords?page=:page": "/base-keywords-page-:page?pageInfo.current_page=:page",
+  "/categories": "/categories-index",
+  "/categories?keyword=:keyword": "/categories-keyword-:keyword"
+}

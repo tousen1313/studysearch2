@@ -1,0 +1,224 @@
+{
+  "categories": [
+    {
+      "kind": "Area",
+      "title": "エリアで探す",
+      "sub_categories": [
+        {
+          "title": "札幌市",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "中央区",
+              "url_param": {
+                "keyword": "グラフィックデザイナー",
+                "area": "北海道-札幌市-中央区"
+              },
+              "is_nofollow": false
+            },
+            {
+              "title": "北区",
+              "url_param": {
+                "keyword": "グラフィックデザイナー",
+                "area": "北海道-札幌市-北区"
+              },
+              "is_nofollow": false
+            },
+            {
+              "title": "東区",
+              "url_param": {
+                "keyword": "グラフィックデザイナー",
+                "area": "北海道-札幌市-東区"
+              },
+              "is_nofollow": false
+            },
+            {
+              "title": "白石区",
+              "url_param": {
+                "keyword": "グラフィックデザイナー",
+                "area": "北海道-札幌市-白石区"
+              },
+              "is_nofollow": false
+            },
+            {
+              "title": "豊平区",
+              "url_param": {
+                "keyword": "グラフィックデザイナー",
+                "area": "北海道-札幌市-豊平区"
+              },
+              "is_nofollow": false
+            },
+            {
+              "title": "南区",
+              "url_param": {
+                "keyword": "グラフィックデザイナー",
+                "area": "北海道-札幌市-南区"
+              },
+              "is_nofollow": false
+            },
+            {
+              "title": "西区",
+              "url_param": {
+                "keyword": "グラフィックデザイナー",
+                "area": "北海道-札幌市-西区"
+              },
+              "is_nofollow": false
+            },
+            {
+              "title": "厚別区",
+              "url_param": {
+                "keyword": "グラフィックデザイナー",
+                "area": "北海道-札幌市-厚別区"
+              },
+              "is_nofollow": false
+            },
+            {
+              "title": "手稲区",
+              "url_param": {
+                "keyword": "グラフィックデザイナー",
+                "area": "北海道-札幌市-手稲区"
+              },
+              "is_nofollow": false
+            },
+            {
+              "title": "清田区",
+              "url_param": {
+                "keyword": "グラフィックデザイナー",
+                "area": "北海道-札幌市-清田区"
+              },
+              "is_nofollow": false
+            }
+          ]
+        },
+        {
+          "title": "函館市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-函館市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "小樽市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-小樽市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "旭川市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-旭川市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "室蘭市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-室蘭市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "釧路市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-釧路市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "帯広市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-帯広市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "北見市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-北見市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "夕張市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-夕張市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "岩見沢市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-岩見沢市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "網走市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-網走市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "留萌市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-留萌市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "苫小牧市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-苫小牧市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "稚内市",
+          "url_param": {
+            "keyword": "グラフィックデザイナー",
+            "area": "北海道-稚内市"
+          },
+          "is_nofollow": false
+        },
+        {
+          "title": "石狩郡",
+          "url_param": {},
+          "is_nofollow": false,
+          "detail_categories": [
+            {
+              "title": "中央区",
+              "url_param": {
+                "keyword": "グラフィックデザイナー",
+                "area": "北海道-札幌市-中央区"
+              },
+              "is_nofollow": false
+            },
+            {
+              "title": "北区",
+              "url_param": {
+                "keyword": "グラフィックデザイナー",
+                "area": "北海道-札幌市-北区"
+              },
+              "is_nofollow": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
