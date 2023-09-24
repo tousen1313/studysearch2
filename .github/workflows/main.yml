@@ -1,0 +1,125 @@
+name: Test and Lint Workflow
+on:
+  push:
+  pull_request:
+    branches: [main, develop]
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Cache node_modules
+        uses: actions/cache@v3
+        id: node_modules_cache
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+      - name: Install dependencies
+        if: steps.node_modules_cache.outputs.cache-hit != 'true'
+        run: npm ci
+  lint:
+    needs: install
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Restore node_modules
+        id: node_modules_cache
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+      - name: Run Type Check
+        run: npm run lint:ci
+  test-jest:
+    needs: install
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Restore node_modules
+        id: node_modules_cache
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+      - name: Run Unit Tests
+        run: npm run test
+      - name: Jest Coverage Report
+        uses: ArtiomTr/jest-coverage-report-action@v2.2.3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+  build-storybook:
+    needs: install
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Restore node_modules
+        id: node_modules_cache
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+      - name: Cache Storybook
+        uses: actions/cache@v3
+        id: storybook_cache
+        with:
+          path: storybook-static
+          key: ${{ runner.os }}-${{ github.sha }}
+      - name: Build Storybook
+        if: steps.storybook_cache.outputs.cache-hit != 'true'
+        run: npm run storybook:build --quiet
+  test-storybook:
+    needs: build-storybook
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Restore node_modules
+        id: node_modules_cache
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+      - name: Restore Storybook
+        id: storybook_cache
+        uses: actions/cache@v3
+        with:
+          path: storybook-static
+          key: ${{ runner.os }}-${{ github.sha }}
+      - name: Install Playwright
+        run: npx playwright install --with-deps chromium
+      - name: Run Storybook Tests
+        run: npm run storybook:ci

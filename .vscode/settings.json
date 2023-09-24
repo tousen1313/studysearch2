@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.words": ["signup", "nextjs", "tailwindcss", "nofollow", "hyoban", "kuchikomi"],
+  "cSpell.ignorePaths": [
+    "node_modules",
+    "vscode-extension",
+    "coverage",
+    "storybook-static",
+    "build",
+    "package.json",
+    "package-lock.json",
+    ".git/objects",
+    ".next",
+    ".vscode",
+    ".vscode-insiders"
+  ],
+  "cSpell.ignoreWords": ["autodocs", "trivago", "svgr"]
+}

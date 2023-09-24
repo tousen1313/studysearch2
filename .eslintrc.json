@@ -1,0 +1,35 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "next/core-web-vitals",
+    "next",
+    "prettier",
+    "plugin:storybook/recommended",
+    "plugin:react/recommended",
+    "plugin:tailwindcss/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "tailwindcss"],
+  "rules": {
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": ["typeAlias"],
+        "format": ["PascalCase"]
+      }
+    ],
+    "no-console": ["warn", { "allow": ["warn", "info", "error"] }],
+    "@typescript-eslint/consistent-type-imports": ["warn", { "prefer": "type-imports" }],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}
